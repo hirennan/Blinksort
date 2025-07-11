@@ -11,7 +11,7 @@ Blinksort is a lightweight retrieval application that converts and stores your b
 
 ```bash
 
-git clone 
+git clone https://github.com/hirennan/Blinksort.git
 
 cd 
 
