@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Blinksort",
+  "description": "Auto sort bookmarks in a blink",
+  "version": "1.0.0",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "unlimitedStorage",
+    "bookmarks",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'"
+  },
+  "minimum_chrome_version": "92",
+  "action": {
+    "default_icon": {
+      "16": "icons/add-folder.png",
+      "24": "icons/add-folder.png",
+      "32": "icons/add-folder.png"
+    },
+    "default_title": "Auto sort bookmarks",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icons/add-folder.png",
+      "24": "icons/add-folder.png",
+      "32": "icons/add-folder.png"
+  }
+}
+
