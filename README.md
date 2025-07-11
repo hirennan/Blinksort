@@ -13,7 +13,7 @@ Blinksort is a lightweight retrieval application that converts and stores your b
 
 git clone https://github.com/hirennan/Blinksort.git
 
-cd 
+cd Blinksort
 
 ```
 
